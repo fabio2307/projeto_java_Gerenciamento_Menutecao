@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="teste" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="748bed42-c098-4e1d-9379-5bcafbd42866">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString>
+		<![CDATA[select 'https://www.saifiahmada.com/2018/10/install-qrcode-ireport.html' as url from dual;]]>
+	</queryString>
+	<field name="url" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch">
+			<image>
+				<reportElement x="261" y="18" width="90" height="90" uuid="4ba01d11-c73f-4114-a274-ecdc19524e40"/>
+				<imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(
+    new com.google.zxing.qrcode.QRCodeWriter().encode(
+        $F{url},
+        com.google.zxing.BarcodeFormat.QR_CODE, 300, 300
+    )
+)]]></imageExpression>
+			</image>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

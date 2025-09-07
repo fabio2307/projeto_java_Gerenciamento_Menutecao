@@ -1,0 +1,949 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="ElePrev3" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="aaafe001-273a-4a5c-be91-b8e9eaa65f68">
+	<property name="ireport.zoom" value="1.210000000000005"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="288"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="db_manutencao"/>
+	<parameter name="id_2" class="java.lang.Integer">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String" isForPrompting="false"/>
+	<queryString>
+		<![CDATA[select *  from form_eletrica_semestral where id_form_ele_semestral= $P{id_2}]]>
+	</queryString>
+	<field name="id_form_ele_semestral" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="data_prev" class="java.sql.Timestamp">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="id_setor" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="setor_prev" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="id_equi_set" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nome_equi_set" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="cod_equi_set" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="tipo_equi" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="iduser" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nome_prev" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="tipo_usuario" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="tipo_prev" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="tempo_dis" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="situacao_prev" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="tempo_ini_prev" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="tempo_fin_prev" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="tempo_total_prev" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a1" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser1" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a2" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser2" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a3" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser3" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a4" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser4" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a5" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser5" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a6" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser6" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a7" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser7" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a8" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser8" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a9" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser9" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a10" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser10" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a11" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser11" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a12" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser12" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a13" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser13" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a14" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser14" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a15" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser15" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a16" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser16" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a17" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser17" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a18" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser18" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a19" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser19" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a20" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser20" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a21" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser21" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a22" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser22" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a23" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser23" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a24" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser24" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a25" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser25" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a26" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser26" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a27" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser27" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a28" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser28" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a29" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser29" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a30" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser30" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a31" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser31" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a32" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser32" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a33" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser33" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a34" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser34" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a35" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser35" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a36" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser36" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a37" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser37" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a38" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser38" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a39" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser39" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a40" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser40" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a41" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser41" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a42" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser42" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a43" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser43" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a44" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser44" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a45" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser45" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a46" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser46" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a47" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser47" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a48" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser48" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a49" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser49" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="a50" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="obser50" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="70" splitType="Stretch">
+			<rectangle radius="6">
+				<reportElement x="128" y="20" width="168" height="24" uuid="9811cb21-0a6c-4d2f-903f-eb507c8c7e59"/>
+			</rectangle>
+			<rectangle radius="6">
+				<reportElement x="296" y="20" width="174" height="24" uuid="c3fa5229-0a23-4bb4-a722-faa8e38d4fd0"/>
+			</rectangle>
+			<rectangle radius="6">
+				<reportElement x="470" y="20" width="85" height="24" uuid="cccca52d-2495-493a-b2c2-194b270f16eb"/>
+			</rectangle>
+			<rectangle radius="6">
+				<reportElement x="128" y="44" width="64" height="20" uuid="39ca126e-7b04-45a6-94cc-78df79619fa4"/>
+			</rectangle>
+			<rectangle radius="6">
+				<reportElement x="192" y="44" width="154" height="20" uuid="aae01fde-2b7a-46d8-953c-c96c479f4f00"/>
+			</rectangle>
+			<rectangle radius="6">
+				<reportElement x="347" y="44" width="90" height="20" uuid="3eb248ee-f69e-487f-988e-000eb2607155"/>
+			</rectangle>
+			<rectangle radius="6">
+				<reportElement x="437" y="44" width="118" height="20" uuid="2470f200-c547-4cf2-b94f-2bbfb30f1c5b"/>
+			</rectangle>
+			<rectangle radius="6">
+				<reportElement x="128" y="0" width="50" height="20" uuid="2ee24252-1d81-405a-bdaa-1ba40517388c"/>
+			</rectangle>
+			<rectangle radius="6">
+				<reportElement x="178" y="0" width="106" height="20" uuid="e5af7d6f-a1ef-42f6-9dd2-1f14b94526a8"/>
+			</rectangle>
+			<rectangle radius="6">
+				<reportElement x="285" y="0" width="127" height="20" uuid="4d6b51d3-8b24-4a87-bd3f-2d033047bd47"/>
+			</rectangle>
+			<rectangle radius="6">
+				<reportElement x="412" y="0" width="143" height="20" uuid="7eea8665-88b7-4def-b2a2-d0ef57f4ba33"/>
+			</rectangle>
+			<rectangle radius="10">
+				<reportElement x="0" y="0" width="124" height="62" forecolor="#000064" uuid="4eabc4d4-307c-43dd-8d4d-7f06c52ceb5b"/>
+				<graphicElement>
+					<pen lineWidth="4.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="0" width="124" height="62" forecolor="#000088" uuid="502a3208-ff1d-4e81-862a-10b4a3ef8bb6"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Preventiva de Eletrica Semestral]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="128" y="0" width="18" height="18" forecolor="#000088" uuid="d83292f5-b6be-4d92-94b6-5d701b4df265"/>
+				<textElement verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ N°:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="146" y="0" width="32" height="18" forecolor="#DC0000" uuid="6d824191-42f9-4be8-a10a-2dd4b80d8de0"/>
+				<textElement verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{id_form_ele_semestral}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="178" y="0" width="30" height="18" forecolor="#000088" uuid="364f8eea-4695-49b9-9c6a-5c3e1aeaf18a"/>
+				<textElement verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ Data:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="208" y="0" width="76" height="18" forecolor="#DC0000" uuid="81717559-68a8-4b24-b58d-26e6c2746c09"/>
+				<textElement verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{data_prev}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="284" y="0" width="33" height="18" forecolor="#000088" uuid="2a228c6e-cae5-4f0c-959e-089aa7d42931"/>
+				<textElement verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ Início:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="317" y="0" width="95" height="18" forecolor="#DC0000" uuid="f7beb3dd-0ceb-4659-a5b0-b4898760b3bf"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{tempo_ini_prev}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="412" y="0" width="47" height="18" forecolor="#000088" uuid="c58be548-3f0f-4b46-b78f-fce5c49beb8d"/>
+				<textElement verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[ Termino:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="459" y="0" width="96" height="18" forecolor="#DC0000" uuid="d244e24b-19af-4ec3-842a-b4ba7775dafd"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{tempo_fin_prev}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="128" y="18" width="33" height="26" forecolor="#000088" uuid="5a9e8a7c-fe61-4de6-b5ca-937131b47bfa"/>
+				<textElement verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[ Setor:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="161" y="18" width="135" height="26" forecolor="#DC0000" uuid="2f350237-f0b7-45f0-8dd3-a1752a3e219b"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{setor_prev}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="296" y="18" width="38" height="26" forecolor="#000088" uuid="14d67025-8215-40f4-bb7e-bbb78e3bbbca"/>
+				<textElement verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[ Equip.:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="334" y="18" width="136" height="26" forecolor="#DC0000" uuid="4e36fbf3-544b-47ad-8cbe-2182ca1c59e1"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{nome_equi_set}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="470" y="18" width="31" height="26" forecolor="#000088" uuid="a39896b6-fd60-4fcc-9ecf-193173839ddb"/>
+				<textElement verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[ Cod.:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="501" y="18" width="54" height="26" forecolor="#DC0000" uuid="67553543-16b5-4051-a713-fbc5caa14dff"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{cod_equi_set}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="128" y="44" width="24" height="18" forecolor="#000088" uuid="56737a99-9357-4a19-8a99-60fa672dc25b"/>
+				<textElement verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[ R.E:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="152" y="44" width="40" height="18" forecolor="#DC0000" uuid="5e487410-b4a0-41ea-891a-26548aa0c014"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{iduser}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="192" y="44" width="36" height="18" forecolor="#000088" uuid="150e8dca-1734-441d-9006-ce6c8657489b"/>
+				<textElement verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[ Nome:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="228" y="44" width="118" height="18" forecolor="#DC0000" uuid="bed03337-f8cc-4e33-abd4-aebf5afa28d5"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{nome_prev}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="346" y="44" width="39" height="18" forecolor="#000088" uuid="15958bd9-e040-43fe-87db-7ef6182dcfe5"/>
+				<textElement verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[ Status:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="385" y="44" width="52" height="18" forecolor="#DC0000" uuid="74eecf22-314a-41e5-aa65-e9ba8a90014e"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{situacao_prev}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="437" y="44" width="42" height="18" forecolor="#000088" uuid="d3d4a70c-4abd-4d52-b85f-a1ad93c0ed87"/>
+				<textElement verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[ Tempo:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="479" y="44" width="76" height="18" forecolor="#DC0000" uuid="155dd173-2acc-4bf8-b4ff-7091f48d67e3"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{tempo_total_prev}]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="642" splitType="Stretch">
+			<rectangle radius="10">
+				<reportElement x="0" y="0" width="555" height="642" forecolor="#000088" uuid="bde535ac-b1d5-4531-bd0c-d67b2010f5c6"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="10" y="220" width="439" height="20" uuid="54ebe50f-18b5-4fc2-aa27-62c2c2c5506e"/>
+				<textElement verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[40.As cores estão corretas (Vermelho-Ligado Verdade-Desligado)?]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="449" y="220" width="96" height="20" forecolor="#DC0000" uuid="461fa2fc-c6d1-47ca-bd86-06c2a6b2e07d"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{a40}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="10" y="240" width="439" height="20" uuid="2f524829-ff63-4799-b463-cbb502ef8b94"/>
+				<textElement verticalAlignment="Middle">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[41.Corrente entre fases R e S?]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="449" y="240" width="96" height="20" forecolor="#DC0000" uuid="2cf20979-86bc-4a63-bbca-f60cadd7faa4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{a41}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="10" y="260" width="439" height="20" uuid="69f7ba0a-e5b7-44fa-9ea9-9a0fd2465e94"/>
+				<textElement verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[42.Corrente entre fases R e T?]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="449" y="260" width="96" height="20" forecolor="#DC0000" uuid="b07e8ce6-a49a-4e2d-ab4f-b6f40e9490f9"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{a42}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="10" y="280" width="439" height="20" uuid="916b609b-96ac-456e-8615-56cd82eae3df"/>
+				<textElement verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[43.Corrente entre fases R e Neutro?]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="449" y="280" width="96" height="20" forecolor="#DC0000" uuid="ea1da730-41d0-4d88-a1ac-d98300f4c064"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{a43}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="10" y="300" width="439" height="20" forecolor="#000000" uuid="dc8a0180-2c5e-4492-872f-4f1e6ba8c431"/>
+				<textElement verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[44.Corrente entre fases S e T?]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="449" y="300" width="96" height="20" forecolor="#DC0000" uuid="c4ca5037-5105-4548-b0d9-fafc9d9c92d3"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{a44}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="10" y="320" width="439" height="20" uuid="18182e5c-ee14-412a-bff1-e4fe8a6e962e"/>
+				<textElement verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[45.Corrente entre fases S e Neutro?]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="449" y="320" width="96" height="20" forecolor="#DC0000" uuid="7c1415b2-bc56-4d13-b30c-dd791433d4c9"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{a45}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="10" y="340" width="439" height="20" uuid="67844264-2b77-44fe-8c5f-ce5bfe288a04"/>
+				<textElement verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[46.Corrente entre fases T e Neutro?]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="449" y="340" width="96" height="20" forecolor="#DC0000" uuid="3ad0f318-1fc4-41bf-98e5-1483efd1e8f4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{a46}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="10" y="359" width="439" height="20" uuid="6c8a5d95-81f6-4a19-8cd1-dc2ae7d15bb6"/>
+				<textElement verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[47.Corrente entre fases Neutro e Terra?]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="449" y="359" width="96" height="20" forecolor="#DC0000" uuid="346ab7e6-6b2a-40ce-86ab-8f2b5841d72a"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{a47}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="10" y="172" width="439" height="28" uuid="efc9ef85-d6af-4d39-8874-9cd8d136e438"/>
+				<textElement verticalAlignment="Middle">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[38.Existe indicação de Ligado e Desligado para os dispositivos de manobra dos    circuitos?]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="449" y="172" width="96" height="28" forecolor="#DC0000" uuid="026ccc40-8833-4100-b43a-a4355f88cd9b"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{a38}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="10" y="200" width="439" height="20" uuid="08fe9859-eca5-45e9-8129-d228d4e7ff17"/>
+				<textElement verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[39.O sistema de sinalização luminoso e/ou sono estão funcionando adequadamente?]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="449" y="200" width="96" height="20" forecolor="#DC0000" uuid="3d73d0bb-40e9-4e93-8ebc-393065490307"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{a39}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="10" y="379" width="439" height="20" uuid="2b403441-c8ea-467a-b440-741ffb89727b"/>
+				<textElement verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[48.Existe guarda de objetos dentro do painel?]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="449" y="379" width="96" height="20" forecolor="#DC0000" uuid="42f26a92-d2b8-4e33-aed3-9593d33b23c5"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{a48}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="10" y="0" width="439" height="20" forecolor="#000000" uuid="a90a99a4-4611-467a-b7bc-6d76f19bef1d">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[31.O Quadro elétrico possui porta, permanentemente fechada?]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="449" y="0" width="96" height="20" forecolor="#DC0000" uuid="4236669e-0d45-40d8-a776-447b75f0fbe7"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{a31}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="10" y="20" width="439" height="20" uuid="85c5f70a-56c0-48fd-b8e1-45ee0b907864"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[32.A máquina possui algum dispositivo de parada de emergência?]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="449" y="20" width="96" height="20" forecolor="#DC0000" uuid="30445268-654a-49cd-a2a3-f82197e956fd"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{a32}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="10" y="40" width="439" height="28" uuid="9138d13f-3dad-48dd-bbdd-6a1dcebbc591"/>
+				<textElement verticalAlignment="Middle">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[33.O dispositivo de parada de emergência possui correta sinalização de identificação (português)?]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="449" y="40" width="96" height="28" forecolor="#DC0000" uuid="886ba062-89b4-4fec-9e8f-af3a26672da1"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{a33}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="10" y="68" width="439" height="28" uuid="6538c823-125c-407b-96b8-b4d6e63af0e2"/>
+				<textElement verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[34.O dispositivo de parada de emergência está em local visível e de fácil acesso?]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="449" y="68" width="96" height="28" forecolor="#DC0000" uuid="bed4696f-1e0c-474c-ae54-48d055aa06a5"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{a34}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="10" y="96" width="439" height="20" uuid="2540d610-62e2-46f3-a376-a34efbac0ba2"/>
+				<textElement verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[35.Há medidas de proteção contra incêndio e explosão conforme NR-23?]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="449" y="96" width="96" height="20" forecolor="#DC0000" uuid="a8df1887-073d-4637-868e-b1f7161d0888"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{a35}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="10" y="116" width="439" height="28" uuid="053bc2c6-d1a8-4630-8d7f-d5dcc507ed8c"/>
+				<textElement verticalAlignment="Middle">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[36.Os barramentos energizados no interior do quadro elétrico possuem proteção fixa que abrange totalmente a área de risco?]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="449" y="116" width="96" height="28" forecolor="#DC0000" uuid="38d73be7-e82f-4ad0-b9f5-0dfb0be1aa03"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{a36}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="10" y="144" width="439" height="28" uuid="99fa7588-641d-4519-9a07-f943bd0b85f0"/>
+				<textElement verticalAlignment="Middle">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[37.Nos painéis instalados na parte externa do prédio bem como os circuitos da cozinha e banheiro existe DR instalado?]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="449" y="144" width="96" height="28" forecolor="#DC0000" uuid="e856816a-c8bb-4328-9401-9a875aeee21f"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{a37}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="9" y="20" width="536" height="1" uuid="3eab8046-c2e8-4f06-a900-ac24cb17ecc2"/>
+				<graphicElement>
+					<pen lineWidth="1.25" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="9" y="40" width="536" height="1" uuid="1e3c6eac-7857-4cee-b22f-52232675419f"/>
+				<graphicElement>
+					<pen lineWidth="1.25" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="9" y="68" width="536" height="1" uuid="eb5cd3c9-6fb1-46ae-8889-9b5bb593f585"/>
+				<graphicElement>
+					<pen lineWidth="1.25" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="9" y="96" width="536" height="1" uuid="54ee875e-661f-4cba-879d-687c9f63cb01"/>
+				<graphicElement>
+					<pen lineWidth="1.25" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="9" y="116" width="536" height="1" uuid="edbcf8f7-171b-4efb-a436-a8f64dd573db"/>
+				<graphicElement>
+					<pen lineWidth="1.25" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="9" y="144" width="536" height="1" uuid="9cfe1e82-e03a-41d9-b542-0cc970318eb1"/>
+				<graphicElement>
+					<pen lineWidth="1.25" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="9" y="170" width="536" height="2" uuid="8afdc31e-89e8-4c06-8ab0-4083cd2e85f6"/>
+				<graphicElement>
+					<pen lineWidth="1.25" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="9" y="200" width="536" height="1" uuid="ba2d114b-6eb3-4556-9da4-be53be07b7bd"/>
+				<graphicElement>
+					<pen lineWidth="1.25" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="9" y="220" width="536" height="1" uuid="8f57f5c1-0fdb-4e3f-b30c-91d47a28a7a4"/>
+				<graphicElement>
+					<pen lineWidth="1.25" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="9" y="240" width="536" height="1" uuid="5ee3b6a0-174e-423e-948b-bfd6406d67a3"/>
+				<graphicElement>
+					<pen lineWidth="1.25" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="9" y="260" width="536" height="1" uuid="7ec03364-97dd-4724-ac15-71b1d0af152f"/>
+				<graphicElement>
+					<pen lineWidth="1.25" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="9" y="279" width="536" height="1" uuid="4463e601-fb9c-4439-af02-7c27ec5f4bd2"/>
+				<graphicElement>
+					<pen lineWidth="1.25" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="9" y="300" width="536" height="1" uuid="793cde22-1b80-492a-a376-7b1561dd96e6"/>
+				<graphicElement>
+					<pen lineWidth="1.25" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="9" y="320" width="536" height="1" uuid="87c4d67b-d8bc-411d-ae7f-48cf2bde3786"/>
+				<graphicElement>
+					<pen lineWidth="1.25" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="9" y="339" width="536" height="1" uuid="402e442f-6208-49d3-a6fd-14c5af0446dd"/>
+				<graphicElement>
+					<pen lineWidth="1.25" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="9" y="359" width="536" height="1" uuid="59c67360-3026-4071-9558-5f76d278629b"/>
+				<graphicElement>
+					<pen lineWidth="1.25" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="9" y="378" width="536" height="1" uuid="a2d98e2a-d565-4bf3-ac11-6af675433326"/>
+				<graphicElement>
+					<pen lineWidth="1.25" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="9" y="399" width="536" height="1" uuid="472e3e3d-d996-406a-9175-681c85d1c267"/>
+				<graphicElement>
+					<pen lineWidth="1.25" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="7" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="7" splitType="Stretch"/>
+	</detail>
+	<pageFooter>
+		<band height="23" splitType="Stretch">
+			<textField>
+				<reportElement x="360" y="3" width="149" height="20" uuid="f81db3ab-dc04-49d0-8139-3edb6475b102"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA["Pagina "+$V{PAGE_NUMBER}+" de"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement x="509" y="3" width="40" height="20" uuid="479ccdc5-437e-49dc-8bd3-dba03e32da6f"/>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField pattern="EEEEE dd MMMMM yyyy">
+				<reportElement x="3" y="3" width="100" height="20" uuid="baa6723e-f795-4660-bc50-728faa6d4e96"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

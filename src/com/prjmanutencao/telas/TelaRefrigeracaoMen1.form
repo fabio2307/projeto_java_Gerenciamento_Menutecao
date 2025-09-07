@@ -1,0 +1,3033 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="grbA1">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="grbA2">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="grbA3">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="grbA4">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="grbA5">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="grbA6">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="grbA7">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="grbA8">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="grbA9">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="grbA10">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="grbA11">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="grbA12">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="grbA13">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="grbA14">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="grbA15">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="grbA16">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="grbA17">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="grbA18">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="grbA19">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="gbrA20">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="gbrA21">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="gbrA22">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="gbrA23">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="gbrA24">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="gbrA25">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="gbrA26">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="gbrA27">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="gbrA28">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="gbrA29">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="gbrA30">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="gbrA31">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="gbrA32">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="closable" type="boolean" value="true"/>
+    <Property name="defaultCloseOperation" type="int" value="0"/>
+    <Property name="iconifiable" type="boolean" value="true"/>
+    <Property name="maximizable" type="boolean" value="true"/>
+    <Property name="title" type="java.lang.String" value="Refrigera&#xe7;&#xe3;o Mensal"/>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[1007, 672]"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,-96,0,0,3,-17"/>
+    <SyntheticProperty name="formPosition" type="java.awt.Point" value="-84,-19,0,5,115,114,0,14,106,97,118,97,46,97,119,116,46,80,111,105,110,116,-74,-60,-118,114,52,126,-56,38,2,0,2,73,0,1,120,73,0,1,121,120,112,0,0,0,0,0,0,0,0"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="0"/>
+    <SyntheticProperty name="generatePosition" type="boolean" value="true"/>
+    <SyntheticProperty name="generateSize" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="internalFrameClosing" listener="javax.swing.event.InternalFrameListener" parameters="javax.swing.event.InternalFrameEvent" handler="formInternalFrameClosing"/>
+    <EventHandler event="internalFrameOpened" listener="javax.swing.event.InternalFrameListener" parameters="javax.swing.event.InternalFrameEvent" handler="formInternalFrameOpened"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="true"/>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+            <BevelBorder>
+              <Color PropertyName="highlightOuter" blue="33" green="33" red="33" type="rgb"/>
+              <Color PropertyName="highlightInner" blue="33" green="33" red="33" type="rgb"/>
+              <Color PropertyName="shadowOuter" blue="33" green="33" red="33" type="rgb"/>
+              <Color PropertyName="shadowInner" blue="33" green="33" red="33" type="rgb"/>
+            </BevelBorder>
+          </Border>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="390" y="90" width="270" height="20"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblFotEltMen3">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="99" green="99" red="99" type="rgb"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                <BevelBorder>
+                  <Color PropertyName="highlightOuter" blue="33" green="33" red="33" type="rgb"/>
+                  <Color PropertyName="highlightInner" blue="33" green="33" red="33" type="rgb"/>
+                  <Color PropertyName="shadowOuter" blue="33" green="33" red="33" type="rgb"/>
+                  <Color PropertyName="shadowInner" blue="33" green="33" red="33" type="rgb"/>
+                </BevelBorder>
+              </Border>
+            </Property>
+            <Property name="opaque" type="boolean" value="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="15" y="15" width="240" height="180"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtFotPre3">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="10" style="0"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="15" y="210" width="93" height="26"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnSalFotPre3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Salvar"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                <BevelBorder>
+                  <Color PropertyName="highlightOuter" blue="33" green="33" red="0" type="rgb"/>
+                  <Color PropertyName="highlightInner" blue="33" green="33" red="0" type="rgb"/>
+                  <Color PropertyName="shadowOuter" blue="33" green="33" red="0" type="rgb"/>
+                  <Color PropertyName="shadowInner" blue="33" green="33" red="0" type="rgb"/>
+                </BevelBorder>
+              </Border>
+            </Property>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSalFotPre3ActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="114" y="222" width="75" height="24"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnArqFotoPre">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Arquivo"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                <BevelBorder>
+                  <Color PropertyName="highlightOuter" blue="33" green="33" red="0" type="rgb"/>
+                  <Color PropertyName="highlightInner" blue="33" green="33" red="0" type="rgb"/>
+                  <Color PropertyName="shadowOuter" blue="33" green="33" red="0" type="rgb"/>
+                  <Color PropertyName="shadowInner" blue="33" green="33" red="0" type="rgb"/>
+                </BevelBorder>
+              </Border>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnArqFotoPreActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="188" y="198" width="75" height="24"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="txtCanFot">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="10" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Cancelar"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                <BevelBorder>
+                  <Color PropertyName="highlightOuter" blue="33" green="33" red="0" type="rgb"/>
+                  <Color PropertyName="highlightInner" blue="33" green="33" red="0" type="rgb"/>
+                  <Color PropertyName="shadowOuter" blue="33" green="33" red="0" type="rgb"/>
+                  <Color PropertyName="shadowInner" blue="33" green="33" red="0" type="rgb"/>
+                </BevelBorder>
+              </Border>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCanFotActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="188" y="222" width="75" height="24"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnCamPre">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Camera"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                <BevelBorder>
+                  <Color PropertyName="highlightOuter" blue="33" green="33" red="0" type="rgb"/>
+                  <Color PropertyName="highlightInner" blue="33" green="33" red="0" type="rgb"/>
+                  <Color PropertyName="shadowOuter" blue="33" green="33" red="0" type="rgb"/>
+                  <Color PropertyName="shadowInner" blue="33" green="33" red="0" type="rgb"/>
+                </BevelBorder>
+              </Border>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCamPreActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="114" y="198" width="75" height="24"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <Properties>
+        <Property name="autoscrolls" type="boolean" value="true"/>
+        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[1010, 2321]"/>
+        </Property>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[1010, 1885]"/>
+        </Property>
+      </Properties>
+      <AccessibilityProperties>
+        <Property name="AccessibleContext.accessibleName" type="java.lang.String" value=""/>
+      </AccessibilityProperties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="-4" y="-3" width="1004" height="645"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Properties>
+            <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[1008, 3179]"/>
+            </Property>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[1010, 1885]"/>
+            </Property>
+          </Properties>
+          <AccessibilityProperties>
+            <Property name="AccessibleContext.accessibleName" type="java.lang.String" value=""/>
+          </AccessibilityProperties>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+            <Property name="useNullLayout" type="boolean" value="true"/>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JRadioButton" name="rbtA1">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="grbA1"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA1ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="722" y="392" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbtA11">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="grbA1"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA11ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="778" y="392" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JToggleButton" name="btnAnoA1">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/7124219_annotation_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAnoA1ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="836" y="392" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnFotoA1">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/290125_camera_image_photo_photography_video_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFotoA1ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="892" y="392" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="txpAAnot1">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                    <BevelBorder>
+                      <Color PropertyName="highlightOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="highlightInner" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowInner" blue="99" green="99" red="99" type="rgb"/>
+                    </BevelBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="770" y="430" width="40" height="10"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="txtaA1">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="lineWrap" type="boolean" value="true"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JTextField" name="txtIdPreEle1">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="70" y="182" width="100" height="28"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtDatIni3">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="200" y="182" width="170" height="28"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtDatFin">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="400" y="182" width="170" height="28"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtTemPre">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="600" y="182" width="170" height="28"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtDatHor">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="10" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="800" y="182" width="140" height="28"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtNomTec">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="70" y="243" width="180" height="28"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtCodEquPre">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="700" y="243" width="100" height="28"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtStaPre">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="830" y="243" width="110" height="28"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbtA12">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="grbA2"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA12ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="778" y="444" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbtA2">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="grbA2"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA2ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="722" y="444" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnFotoA2">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/290125_camera_image_photo_photography_video_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFotoA2ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="892" y="444" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JToggleButton" name="btnAnoA2">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/7124219_annotation_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAnoA2ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="836" y="444" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="txpAAnot2">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                    <BevelBorder>
+                      <Color PropertyName="highlightOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="highlightInner" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowInner" blue="99" green="99" red="99" type="rgb"/>
+                    </BevelBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="770" y="482" width="40" height="10"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="txtaA2">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="lineWrap" type="boolean" value="true"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JRadioButton" name="rbtA3">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="grbA3"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA3ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="722" y="497" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbtA13">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="grbA3"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA13ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="778" y="497" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="txpAAnot3">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                    <BevelBorder>
+                      <Color PropertyName="highlightOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="highlightInner" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowInner" blue="99" green="99" red="99" type="rgb"/>
+                    </BevelBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="770" y="535" width="40" height="10"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="txtaA3">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="lineWrap" type="boolean" value="true"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JToggleButton" name="btnAnoA3">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/7124219_annotation_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAnoA3ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="836" y="497" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnFotoA3">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/290125_camera_image_photo_photography_video_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFotoA3ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="892" y="497" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbtA4">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="grbA4"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA4ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="722" y="550" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="txpAAnot4">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                    <BevelBorder>
+                      <Color PropertyName="highlightOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="highlightInner" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowInner" blue="99" green="99" red="99" type="rgb"/>
+                    </BevelBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="770" y="588" width="40" height="10"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="txtaA4">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="lineWrap" type="boolean" value="true"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JRadioButton" name="rbtA14">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="grbA4"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA14ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="778" y="550" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JToggleButton" name="btnAnoA4">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/7124219_annotation_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAnoA4ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="836" y="550" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnFotoA4">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/290125_camera_image_photo_photography_video_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFotoA4ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="892" y="550" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbtA5">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="grbA5"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA5ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="722" y="604" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="txpAAnot5">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                    <BevelBorder>
+                      <Color PropertyName="highlightOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="highlightInner" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowInner" blue="99" green="99" red="99" type="rgb"/>
+                    </BevelBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="770" y="643" width="40" height="10"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="txtaA5">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="lineWrap" type="boolean" value="true"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JRadioButton" name="rbtA15">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="grbA5"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA15ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="778" y="604" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JToggleButton" name="btnAnoA5">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/7124219_annotation_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAnoA5ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="836" y="604" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnFotoA5">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/290125_camera_image_photo_photography_video_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFotoA5ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="892" y="604" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbtA6">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="grbA6"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA6ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="722" y="657" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="txpAAnot6">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                    <BevelBorder>
+                      <Color PropertyName="highlightOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="highlightInner" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowInner" blue="99" green="99" red="99" type="rgb"/>
+                    </BevelBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="770" y="696" width="40" height="10"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="txtaA6">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="lineWrap" type="boolean" value="true"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JRadioButton" name="rbtA16">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="grbA6"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA16ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="778" y="657" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JToggleButton" name="btnAnoA6">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/7124219_annotation_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAnoA6ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="836" y="657" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnFotoA6">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/290125_camera_image_photo_photography_video_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFotoA6ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="892" y="657" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbtA7">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="grbA7"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA7ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="722" y="709" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="txpAAnot7">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                    <BevelBorder>
+                      <Color PropertyName="highlightOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="highlightInner" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowInner" blue="99" green="99" red="99" type="rgb"/>
+                    </BevelBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="770" y="749" width="40" height="10"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="txtaA7">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="lineWrap" type="boolean" value="true"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JRadioButton" name="rbtA17">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="grbA7"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA17ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="778" y="709" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JToggleButton" name="btnAnoA7">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/7124219_annotation_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAnoA7ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="836" y="709" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnFotoA7">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/290125_camera_image_photo_photography_video_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFotoA7ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="892" y="709" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbtA8">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="grbA8"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA8ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="722" y="762" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="txpAAnot8">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                    <BevelBorder>
+                      <Color PropertyName="highlightOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="highlightInner" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowInner" blue="99" green="99" red="99" type="rgb"/>
+                    </BevelBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="770" y="800" width="40" height="10"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="txtaA8">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="lineWrap" type="boolean" value="true"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JRadioButton" name="rbtA18">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="grbA8"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA18ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="778" y="762" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JToggleButton" name="btnAnoA8">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/7124219_annotation_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAnoA8ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="836" y="762" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnFotoA8">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/290125_camera_image_photo_photography_video_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFotoA8ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="892" y="762" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbtA9">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="grbA9"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA9ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="722" y="815" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="txpAAnot9">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                    <BevelBorder>
+                      <Color PropertyName="highlightOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="highlightInner" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowInner" blue="99" green="99" red="99" type="rgb"/>
+                    </BevelBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="770" y="854" width="40" height="10"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="txtaA9">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="lineWrap" type="boolean" value="true"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JRadioButton" name="rbtA19">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="grbA9"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA19ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="778" y="815" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JToggleButton" name="btnAnoA9">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/7124219_annotation_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAnoA9ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="836" y="815" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnFotoA9">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/290125_camera_image_photo_photography_video_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFotoA9ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="892" y="815" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbtA10">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="grbA10"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA10ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="722" y="868" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="txpAAnot10">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                    <BevelBorder>
+                      <Color PropertyName="highlightOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="highlightInner" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowInner" blue="99" green="99" red="99" type="rgb"/>
+                    </BevelBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="770" y="907" width="40" height="10"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="txtaA10">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="lineWrap" type="boolean" value="true"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JRadioButton" name="rbtA20">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="grbA10"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA20ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="778" y="868" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JToggleButton" name="btnAnoA10">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/7124219_annotation_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAnoA10ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="836" y="868" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnFotoA10">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/290125_camera_image_photo_photography_video_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFotoA10ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="892" y="868" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbtA21">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="grbA11"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA21ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="722" y="922" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbtA31">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="grbA11"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA31ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="778" y="922" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="txpAAnot11">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                    <BevelBorder>
+                      <Color PropertyName="highlightOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="highlightInner" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowInner" blue="99" green="99" red="99" type="rgb"/>
+                    </BevelBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="770" y="960" width="40" height="10"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="txtaA11">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="lineWrap" type="boolean" value="true"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JToggleButton" name="btnAnoA11">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/7124219_annotation_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAnoA11ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="836" y="922" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnFotoA11">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/290125_camera_image_photo_photography_video_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFotoA11ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="892" y="922" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbtA22">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="grbA12"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA22ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="722" y="975" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="txpAAnot12">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                    <BevelBorder>
+                      <Color PropertyName="highlightOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="highlightInner" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowInner" blue="99" green="99" red="99" type="rgb"/>
+                    </BevelBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="770" y="1014" width="40" height="10"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="txtaA12">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="lineWrap" type="boolean" value="true"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JRadioButton" name="rbtA32">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="grbA12"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA32ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="778" y="975" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JToggleButton" name="btnAnoA12">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/7124219_annotation_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAnoA12ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="836" y="975" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnFotoA12">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/290125_camera_image_photo_photography_video_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFotoA12ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="892" y="975" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbtA23">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="grbA13"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA23ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="722" y="1028" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="txpAAnot13">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                    <BevelBorder>
+                      <Color PropertyName="highlightOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="highlightInner" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowInner" blue="99" green="99" red="99" type="rgb"/>
+                    </BevelBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="770" y="1067" width="40" height="10"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="txtaA13">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="lineWrap" type="boolean" value="true"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JRadioButton" name="rbtA33">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="grbA13"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA33ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="778" y="1028" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JToggleButton" name="btnAnoA13">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/7124219_annotation_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAnoA13ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="836" y="1028" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnFotoA13">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/290125_camera_image_photo_photography_video_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFotoA13ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="892" y="1028" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbtA24">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="grbA14"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA24ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="722" y="1081" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="txpAAnot14">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                    <BevelBorder>
+                      <Color PropertyName="highlightOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="highlightInner" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowInner" blue="99" green="99" red="99" type="rgb"/>
+                    </BevelBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="770" y="1120" width="40" height="10"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="txtaA14">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="lineWrap" type="boolean" value="true"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JRadioButton" name="rbtA34">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="grbA14"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA34ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="778" y="1081" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JToggleButton" name="btnAnoA14">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/7124219_annotation_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAnoA14ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="836" y="1081" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnFotoA14">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/290125_camera_image_photo_photography_video_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFotoA14ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="892" y="1081" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbtA25">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="grbA15"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA25ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="722" y="1134" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="txpAAnot15">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                    <BevelBorder>
+                      <Color PropertyName="highlightOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="highlightInner" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowInner" blue="99" green="99" red="99" type="rgb"/>
+                    </BevelBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="770" y="1172" width="40" height="10"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="txtaA15">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="lineWrap" type="boolean" value="true"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JRadioButton" name="rbtA35">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="grbA15"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA35ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="778" y="1134" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JToggleButton" name="btnAnoA15">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/7124219_annotation_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAnoA15ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="836" y="1134" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnFotoA15">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/290125_camera_image_photo_photography_video_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFotoA15ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="892" y="1134" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbtA26">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="grbA16"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA26ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="722" y="1187" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="txpAAnot16">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                    <BevelBorder>
+                      <Color PropertyName="highlightOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="highlightInner" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowInner" blue="99" green="99" red="99" type="rgb"/>
+                    </BevelBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="770" y="1226" width="40" height="10"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="txtaA16">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="lineWrap" type="boolean" value="true"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JRadioButton" name="rbtA36">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="grbA16"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA36ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="778" y="1187" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JToggleButton" name="btnAnoA16">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/7124219_annotation_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAnoA16ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="836" y="1187" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnFotoA16">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/290125_camera_image_photo_photography_video_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFotoA16ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="892" y="1187" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbtA27">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="grbA17"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA27ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="722" y="1240" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbtA37">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="grbA17"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA37ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="778" y="1240" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="txpAAnot17">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                    <BevelBorder>
+                      <Color PropertyName="highlightOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="highlightInner" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowInner" blue="99" green="99" red="99" type="rgb"/>
+                    </BevelBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="770" y="1278" width="40" height="10"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="txtaA17">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="lineWrap" type="boolean" value="true"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JToggleButton" name="btnAnoA17">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/7124219_annotation_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAnoA17ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="836" y="1240" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnFotoA17">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/290125_camera_image_photo_photography_video_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFotoA17ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="892" y="1240" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbtA28">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="grbA18"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA28ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="722" y="1292" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="txpAAnot18">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                    <BevelBorder>
+                      <Color PropertyName="highlightOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="highlightInner" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowInner" blue="99" green="99" red="99" type="rgb"/>
+                    </BevelBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="770" y="1330" width="40" height="10"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="txtaA18">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="lineWrap" type="boolean" value="true"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JRadioButton" name="rbtA38">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="grbA18"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA38ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="778" y="1292" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JToggleButton" name="btnAnoA18">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/7124219_annotation_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAnoA18ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="836" y="1291" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnFotoA18">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/290125_camera_image_photo_photography_video_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFotoA18ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="892" y="1292" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbtA29">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="grbA19"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA29ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="722" y="1346" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="txpAAnot19">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                    <BevelBorder>
+                      <Color PropertyName="highlightOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="highlightInner" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowInner" blue="99" green="99" red="99" type="rgb"/>
+                    </BevelBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="770" y="1386" width="40" height="10"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="txtaA19">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="lineWrap" type="boolean" value="true"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JRadioButton" name="rbtA39">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="grbA19"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA39ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="778" y="1346" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JToggleButton" name="btnAnoA19">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/7124219_annotation_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAnoA19ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="836" y="1346" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnFotoA19">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/290125_camera_image_photo_photography_video_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFotoA19ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="892" y="1346" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbtA30">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="gbrA20"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA30ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="722" y="1398" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="txpAAnot20">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                    <BevelBorder>
+                      <Color PropertyName="highlightOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="highlightInner" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowInner" blue="99" green="99" red="99" type="rgb"/>
+                    </BevelBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="770" y="1438" width="40" height="10"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="txtaA20">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="lineWrap" type="boolean" value="true"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JRadioButton" name="rbtA40">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="gbrA20"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA40ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="778" y="1398" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JToggleButton" name="btnAnoA20">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/7124219_annotation_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAnoA20ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="836" y="1398" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnFotoA20">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/290125_camera_image_photo_photography_video_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFotoA20ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="892" y="1398" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbtA41">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="gbrA21"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA41ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="722" y="1452" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="txpAAnot21">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                    <BevelBorder>
+                      <Color PropertyName="highlightOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="highlightInner" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowInner" blue="99" green="99" red="99" type="rgb"/>
+                    </BevelBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="770" y="1492" width="40" height="10"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="txtaA21">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="lineWrap" type="boolean" value="true"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JRadioButton" name="rbtA51">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="gbrA21"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA51ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="778" y="1452" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JToggleButton" name="btnAnoA21">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/7124219_annotation_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAnoA21ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="836" y="1452" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnFotoA21">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/290125_camera_image_photo_photography_video_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFotoA21ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="892" y="1452" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbtA42">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="gbrA22"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA42ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="722" y="1505" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="txpAAnot22">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                    <BevelBorder>
+                      <Color PropertyName="highlightOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="highlightInner" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowInner" blue="99" green="99" red="99" type="rgb"/>
+                    </BevelBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="770" y="1544" width="40" height="10"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="txtaA22">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="lineWrap" type="boolean" value="true"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JRadioButton" name="rbtA52">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="gbrA22"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA52ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="778" y="1505" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JToggleButton" name="btnAnoA22">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/7124219_annotation_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAnoA22ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="836" y="1505" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnFotoA22">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/290125_camera_image_photo_photography_video_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFotoA22ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="892" y="1505" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbtA43">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="gbrA23"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA43ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="722" y="1557" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="txpAAnot23">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                    <BevelBorder>
+                      <Color PropertyName="highlightOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="highlightInner" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowInner" blue="99" green="99" red="99" type="rgb"/>
+                    </BevelBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="770" y="1596" width="40" height="10"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="txtaA23">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="lineWrap" type="boolean" value="true"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JRadioButton" name="rbtA53">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="gbrA23"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA53ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="778" y="1557" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JToggleButton" name="btnAnoA23">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/7124219_annotation_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAnoA23ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="836" y="1557" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnFotoA23">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/290125_camera_image_photo_photography_video_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFotoA23ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="892" y="1557" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbtA44">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="gbrA24"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA44ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="722" y="1610" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="txpAAnot24">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                    <BevelBorder>
+                      <Color PropertyName="highlightOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="highlightInner" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowOuter" blue="99" green="99" red="99" type="rgb"/>
+                      <Color PropertyName="shadowInner" blue="99" green="99" red="99" type="rgb"/>
+                    </BevelBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="770" y="1650" width="40" height="10"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="txtaA24">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="lineWrap" type="boolean" value="true"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JRadioButton" name="rbtA54">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="gbrA24"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtA54ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="778" y="1610" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JToggleButton" name="btnAnoA24">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/7124219_annotation_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAnoA24ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="836" y="1610" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnFotoA24">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/290125_camera_image_photo_photography_video_icon.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFotoA24ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="892" y="1610" width="40" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnEncPre">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/icones/48763_edit_edit_file_file.png"/>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" value="Encerrar Preventiva"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor em Forma de M&#xe3;o"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEncPreActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="834" y="1766" width="64" height="64"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="278" y="238" width="184" height="38"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="txtSetPre">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="lineWrap" type="boolean" value="true"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="488" y="238" width="184" height="38"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="txtEquPre">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="lineWrap" type="boolean" value="true"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="jLabel1">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/prjmanutencao/telas/imagens_fundo/refri mensal.png"/>
+                </Property>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="0" y="0" width="1010" height="1885"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

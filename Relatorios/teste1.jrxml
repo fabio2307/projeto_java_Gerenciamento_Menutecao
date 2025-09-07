@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="teste1" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="6b3fa584-def9-4056-a4b4-28dc7461125b">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<style name="style1">
+		<conditionalStyle>
+			<conditionExpression><![CDATA[$F{Situação}.equals("Encerrada")]]></conditionExpression>
+			<style forecolor="#5C15E6"/>
+		</conditionalStyle>
+		<conditionalStyle>
+			<conditionExpression><![CDATA[$F{Situação}.equals("Irregular")]]></conditionExpression>
+			<style forecolor="#E61A15" backcolor="#5C15E6"/>
+		</conditionalStyle>
+	</style>
+	<queryString>
+		<![CDATA[select Men.id_form_ele_mensal as 'N°', Usu.iduser as 'R.E', Usu.nome_usuario as 'Funcionario', Men.tipo_usuario as 'Especialidade', Men.tipo_prev as 'Preventiva', Men.situacao_prev as 'Situação', Men.tempo_ini_prev as 'inicío', Men.tempo_total_prev as 'Tempo', Men.tipo_prev as 'Tipo' from form_eletrica_mensal Men
+inner join usuarios Usu on  Men.iduser = Usu.iduser
+group by(Usu.nome_usuario), (Men.id_form_ele_mensal)
+order by Funcionario asc;]]>
+	</queryString>
+	<field name="N°" class="java.lang.Integer"/>
+	<field name="R.E" class="java.lang.Integer"/>
+	<field name="Funcionario" class="java.lang.String"/>
+	<field name="Especialidade" class="java.lang.String"/>
+	<field name="Preventiva" class="java.lang.String"/>
+	<field name="Situação" class="java.lang.String"/>
+	<field name="inicío" class="java.lang.String"/>
+	<field name="Tempo" class="java.lang.String"/>
+	<field name="Tipo" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="30" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="60" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="71" splitType="Stretch">
+			<rectangle>
+				<reportElement style="style1" mode="Opaque" x="138" y="0" width="210" height="42" uuid="acee6037-6c4e-45a9-a135-fadba2137dbb"/>
+			</rectangle>
+			<textField>
+				<reportElement style="style1" mode="Transparent" x="359" y="0" width="168" height="23" forecolor="#000000" uuid="f7aa8040-1495-4c32-8df2-9b40cb820b33"/>
+				<textElement markup="none">
+					<font size="12" isBold="true" isItalic="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Situação}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement style="style1" x="359" y="42" width="168" height="29" uuid="cb45e87e-8b31-4a5c-97be-bd5bdacc76ee"/>
+				<textFieldExpression><![CDATA[$F{Situação}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report3" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="c2b37680-4fa8-4556-ad8c-e283af0709cf">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<subDataset name="New Dataset 1" uuid="6a923128-6078-49c3-8858-462b013651c3">
+		<queryString>
+			<![CDATA[select REGEXP_REPLACE(REPLACE(REPLACE(Usu.nome_usuario,', ',','),' ,',','),'[[:blank:]][^,]+','') as 'Funcionario', Os.situacao_os as 'Situação', round(count(*) /t.total * 100,2) as 'Total %' from os Os
+inner join usuarios Usu on Os.iduser = Usu.iduser,
+(select count(*) as total from os) t
+where situacao_os = 'Aberta'
+group by(Usu.nome_usuario), (Os.situacao_os)
+order by Funcionario asc;]]>
+		</queryString>
+		<field name="Funcionario" class="java.lang.String"/>
+		<field name="Situação" class="java.lang.String"/>
+		<field name="Total %" class="java.math.BigDecimal"/>
+	</subDataset>
+	<parameter name="situ" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[select * from os, usuarios ;]]>
+	</queryString>
+	<field name="id_os" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="data_os" class="java.sql.Timestamp">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="hora_inicial" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="hora_final" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="iduser1" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="id_setor" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="iduser" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="tipo_os" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="servico_os" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="desc_os" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="observ_os" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="situacao_os" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="cro_os" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="prioridade_os" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="area_usuario" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nome_usuario" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="perfil_usuario" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="tipo_usuario" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="login_usuario" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="senha_usuario" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nome_foto" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="foto_usu" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="sexo_usu" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nasc_usu" class="java.sql.Date">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="status_usuario" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="22" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="24" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="19" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="304" splitType="Stretch">
+			<pie3DChart>
+				<chart isShowLegend="true">
+					<reportElement x="12" y="11" width="531" height="282" uuid="69830d3a-b2ee-4c40-b4cb-1465d4349547"/>
+					<chartTitle/>
+					<chartSubtitle/>
+					<chartLegend>
+						<font size="12"/>
+					</chartLegend>
+				</chart>
+				<pieDataset maxCount="30" minPercentage="2.0">
+					<dataset>
+						<datasetRun subDataset="New Dataset 1" uuid="86c023e4-67c9-4b4b-b98b-e004b459d72f"/>
+					</dataset>
+					<keyExpression><![CDATA[$F{Funcionario} + " - " + $F{Total %} + "%"]]></keyExpression>
+					<valueExpression><![CDATA[$F{Total %}]]></valueExpression>
+					<labelExpression><![CDATA[$F{Situação} + " " + $F{Total %} + "%"]]></labelExpression>
+				</pieDataset>
+				<pie3DPlot isCircular="false">
+					<plot>
+						<seriesColor seriesOrder="0" color="#00CCCC"/>
+						<seriesColor seriesOrder="1" color="#3EB441"/>
+						<seriesColor seriesOrder="2" color="#2022FF"/>
+						<seriesColor seriesOrder="3" color="#850F30"/>
+						<seriesColor seriesOrder="4" color="#F2D921"/>
+						<seriesColor seriesOrder="5" color="#7502DE"/>
+						<seriesColor seriesOrder="6" color="#FF052F"/>
+						<seriesColor seriesOrder="7" color="#FF55B5"/>
+						<seriesColor seriesOrder="8" color="#666666"/>
+						<seriesColor seriesOrder="9" color="#000066"/>
+						<seriesColor seriesOrder="10" color="#FFC8A6"/>
+						<seriesColor seriesOrder="11" color="#C36E1E"/>
+						<seriesColor seriesOrder="12" color="#9427FF"/>
+						<seriesColor seriesOrder="13" color="#666600"/>
+						<seriesColor seriesOrder="14" color="#FFFF00"/>
+						<seriesColor seriesOrder="15" color="#0AFF07"/>
+						<seriesColor seriesOrder="16" color="#2EECCA"/>
+						<seriesColor seriesOrder="17" color="#DF2253"/>
+						<seriesColor seriesOrder="18" color="#D202FC"/>
+						<seriesColor seriesOrder="19" color="#049919"/>
+						<seriesColor seriesOrder="20" color="#6C0F6A"/>
+						<seriesColor seriesOrder="21" color="#DAF852"/>
+						<seriesColor seriesOrder="22" color="#015CEA"/>
+						<seriesColor seriesOrder="23" color="#A86CF3"/>
+						<seriesColor seriesOrder="24" color="#6689A5"/>
+						<seriesColor seriesOrder="25" color="#D12370"/>
+						<seriesColor seriesOrder="26" color="#D4FE0B"/>
+						<seriesColor seriesOrder="27" color="#0BD020"/>
+						<seriesColor seriesOrder="28" color="#7B35BB"/>
+						<seriesColor seriesOrder="29" color="#046447"/>
+						<seriesColor seriesOrder="30" color="#C8C17D"/>
+						<seriesColor seriesOrder="31" color="#7D07F0"/>
+						<seriesColor seriesOrder="32" color="#F4C6DD"/>
+						<seriesColor seriesOrder="33" color="#4B4F94"/>
+						<seriesColor seriesOrder="34" color="#45DC1E"/>
+						<seriesColor seriesOrder="35" color="#D817BE"/>
+						<seriesColor seriesOrder="36" color="#09BBC8"/>
+						<seriesColor seriesOrder="37" color="#42164E"/>
+					</plot>
+					<itemLabel>
+						<font size="11" isPdfEmbedded="true"/>
+					</itemLabel>
+				</pie3DPlot>
+			</pie3DChart>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="14" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="13" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="16" splitType="Stretch"/>
+	</summary>
+</jasperReport>

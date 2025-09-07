@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="RelatorioOs1" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="344064a7-9c05-4ffd-b0c5-756b011ef8f2">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="727"/>
+	<style name="Title" forecolor="#FFFFFF" fontName="Times New Roman" fontSize="50" isBold="false" pdfFontName="Times-Bold"/>
+	<style name="SubTitle" forecolor="#666666" fontName="Times New Roman" fontSize="18" isBold="false" pdfFontName="Times-Roman"/>
+	<style name="Column header" forecolor="#666666" fontName="Times New Roman" fontSize="14" isBold="true" pdfFontName="Times-Roman"/>
+	<style name="Detail" mode="Transparent" fontName="Times New Roman" pdfFontName="Times-Roman"/>
+	<style name="Row" mode="Transparent" fontName="Times New Roman" pdfFontName="Times-Roman">
+		<conditionalStyle>
+			<conditionExpression><![CDATA[$V{REPORT_COUNT}%2 == 0]]></conditionExpression>
+			<style mode="Opaque" backcolor="#F0EFEF"/>
+		</conditionalStyle>
+	</style>
+	<subDataset name="PieChartDataset" uuid="7d486f59-dd1f-4b84-a3b5-08adfe57f320">
+		<queryString>
+			<![CDATA[select REGEXP_REPLACE(REPLACE(REPLACE(Usu.nome_usuario,', ',','),' ,',','),'[[:blank:]][^,]+','') as 'Funcionario', Os.situacao_os as 'Situação', round(count(*) /t.total * 100,2) as 'Total %' from os Os
+inner join usuarios Usu on Os.iduser = Usu.iduser,
+(select count(*) as total from os) t
+where situacao_os = 'Aberta'
+group by(Usu.nome_usuario), (Os.situacao_os)
+order by Funcionario asc;]]>
+		</queryString>
+		<field name="Funcionario" class="java.lang.String"/>
+		<field name="Situação" class="java.lang.String"/>
+		<field name="Total %" class="java.math.BigDecimal"/>
+	</subDataset>
+	<subDataset name="PieChartDataset_1" uuid="0616eda0-ea37-4c65-aee2-56425c75a78d">
+		<queryString>
+			<![CDATA[select REGEXP_REPLACE(REPLACE(REPLACE(Usu.nome_usuario,', ',','),' ,',','),'[[:blank:]][^,]+','') as 'Funcionario', Os.situacao_os as 'Situação', round(count(*) /t.total * 100,2) as 'Total %' from os Os
+inner join usuarios Usu on Os.iduser = Usu.iduser,
+(select count(*) as total from os) t
+where situacao_os = 'Encerrada'
+group by(Usu.nome_usuario), (Os.situacao_os)
+order by Funcionario asc;]]>
+		</queryString>
+		<field name="Funcionario" class="java.lang.String"/>
+		<field name="Situação" class="java.lang.String"/>
+		<field name="Total %" class="java.math.BigDecimal"/>
+	</subDataset>
+	<subDataset name="PieChartDataset_2" uuid="44f159d6-e3ea-4020-bde6-0c16440ceca0">
+		<queryString>
+			<![CDATA[select REGEXP_REPLACE(REPLACE(REPLACE(Usu.nome_usuario,', ',','),' ,',','),'[[:blank:]][^,]+','') as 'Funcionario', Os.situacao_os as 'Situação', round(count(*) /t.total * 100,2) as 'Total %' from os Os
+inner join usuarios Usu on Os.iduser = Usu.iduser,
+(select count(*) as total from os) t
+group by(Usu.nome_usuario), (Os.situacao_os)
+order by Funcionario asc;]]>
+		</queryString>
+		<field name="Funcionario" class="java.lang.String"/>
+		<field name="Situação" class="java.lang.String"/>
+		<field name="Total %" class="java.math.BigDecimal"/>
+	</subDataset>
+	<queryString>
+		<![CDATA[select Os.id_os as'N° O.S',
+  Os.iduser1 as'R.E',
+  (select nome_usuario from usuarios where iduser = Os.iduser1) as 'Solicitado por',
+  (select area_usuario from usuarios where iduser = Os.iduser1) as 'Área',
+  (select tipo_usuario from usuarios where iduser = Os.iduser1 ) as 'Cargo',
+   Os.id_setor as 'Código',
+   (select andar from setor where id_setor = Os.id_setor ) as 'Andar',
+  (select setor from setor where id_setor = Os.id_setor ) as 'Setor',
+  Os.iduser as 'R.E1',
+  (select nome_usuario from usuarios where iduser = Os.iduser ) as 'Funcionário',
+  (select tipo_usuario from usuarios where iduser = Os.iduser ) as 'Especialidade',
+  Os.observ_os as'Obsevação',
+  Os.desc_os as'Descrição',
+  prioridade_os as'Prioridade',
+  Os.servico_os as'Serviço',
+  Os.tipo_os as'Seguimento',
+  Os.situacao_os as'Situação',
+  Os.hora_inicial as'Início',
+  Os.hora_final as'Término',
+  Os.cro_os as'Tempo'
+  from os Os
+order by Os.situacao_os asc;]]>
+	</queryString>
+	<field name="N° O.S" class="java.lang.Integer"/>
+	<field name="R.E" class="java.lang.Integer"/>
+	<field name="Solicitado por" class="java.lang.String"/>
+	<field name="Área" class="java.lang.String"/>
+	<field name="Cargo" class="java.lang.String"/>
+	<field name="Código" class="java.lang.Integer"/>
+	<field name="Andar" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Setor" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="R.E1" class="java.lang.Integer"/>
+	<field name="Funcionário" class="java.lang.String"/>
+	<field name="Especialidade" class="java.lang.String"/>
+	<field name="Obsevação" class="java.lang.String"/>
+	<field name="Descrição" class="java.lang.String"/>
+	<field name="Prioridade" class="java.lang.String"/>
+	<field name="Serviço" class="java.lang.String"/>
+	<field name="Seguimento" class="java.lang.String"/>
+	<field name="Situação" class="java.lang.String"/>
+	<field name="Início" class="java.lang.String"/>
+	<field name="Término" class="java.lang.String"/>
+	<field name="Tempo" class="java.lang.String"/>
+	<group name="Group1">
+		<groupExpression><![CDATA[(int)($V{REPORT_COUNT}/15)]]></groupExpression>
+		<groupHeader>
+			<band height="31">
+				<frame>
+					<reportElement mode="Opaque" x="225" y="7" width="330" height="24" forecolor="#B89F7D" backcolor="#70A9C6" uuid="b11ba6b3-d9d1-40e7-aa5c-3a4dc139f5e8"/>
+					<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+						<reportElement style="SubTitle" isPrintRepeatedValues="false" x="2" y="1" width="263" height="23" forecolor="#FFFFFF" uuid="bcb5a2f9-eb24-4277-8f19-e1acf4b52850"/>
+						<textElement>
+							<font fontName="Arial" isBold="false" pdfFontName="Helvetica"/>
+						</textElement>
+					</textField>
+					<textField>
+						<reportElement x="2" y="1" width="128" height="23" forecolor="#FFFFFF" uuid="cb10fbd2-669f-456c-ba47-5133310ac523"/>
+						<textElement textAlignment="Center" verticalAlignment="Middle">
+							<font fontName="Arial" size="18" isBold="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{Situação}]]></textFieldExpression>
+					</textField>
+				</frame>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band height="12"/>
+		</groupFooter>
+	</group>
+	<group name="Group2">
+		<groupExpression><![CDATA[(int)($V{REPORT_COUNT}/5)]]></groupExpression>
+		<groupHeader>
+			<band height="37">
+				<frame>
+					<reportElement mode="Opaque" x="225" y="4" width="330" height="32" forecolor="#B89F7D" backcolor="#4FB4FF" uuid="a3592a0e-eced-4661-aafc-8ac8c2b5d826"/>
+				</frame>
+				<textField isBlankWhenNull="true">
+					<reportElement positionType="Float" x="225" y="4" width="328" height="33" forecolor="#000000" uuid="dc08c852-a47b-43aa-a6ae-6f7ab1a55b17"/>
+					<textElement>
+						<font fontName="Arial" size="16" isBold="true" pdfFontName="Helvetica-Bold"/>
+					</textElement>
+				</textField>
+				<staticText>
+					<reportElement x="225" y="5" width="48" height="32" forecolor="#FFFFFF" uuid="49be1c43-3edf-4b54-90ce-e32174d86e70"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Arial" size="12" isBold="true"/>
+					</textElement>
+					<text><![CDATA[N° O.S]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="321" y="4" width="98" height="32" forecolor="#FFFFFF" uuid="7d79dc30-4b0e-45b4-bd9e-92cad708223c"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Arial" size="12" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Funcionário]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="273" y="4" width="48" height="32" forecolor="#FFFFFF" uuid="1f21315a-69f4-4e5b-a7e7-fdb696ea4b50"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Arial" size="12" isBold="true"/>
+					</textElement>
+					<text><![CDATA[R.E]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="477" y="5" width="76" height="31" forecolor="#FFFFFF" uuid="0e156ef0-9ffb-4152-9cd8-810207e5b519"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Arial" size="12" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Tempo]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="419" y="5" width="58" height="31" forecolor="#FFFFFF" uuid="d34f8db7-0da7-480c-aaba-3e32e88cc4ed"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Arial" size="11" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Prioridade]]></text>
+				</staticText>
+			</band>
+		</groupHeader>
+	</group>
+	<background>
+		<band height="802" splitType="Stretch">
+			<pie3DChart>
+				<chart isShowLegend="true" evaluationTime="Report">
+					<reportElement x="0" y="171" width="225" height="260" uuid="da353d01-a596-48db-9e4e-4ad80ea272ad"/>
+					<chartTitle position="Top"/>
+					<chartSubtitle/>
+					<chartLegend>
+						<font size="9"/>
+					</chartLegend>
+				</chart>
+				<pieDataset maxCount="40" minPercentage="2.0">
+					<dataset>
+						<datasetRun subDataset="PieChartDataset" uuid="0b82300b-76f7-4bd0-b844-b564b22cf23c"/>
+					</dataset>
+					<keyExpression><![CDATA[$F{Funcionario} + " - " + $F{Total %} + "%"]]></keyExpression>
+					<valueExpression><![CDATA[$F{Total %}]]></valueExpression>
+					<labelExpression><![CDATA[$F{Total %} + "%"]]></labelExpression>
+				</pieDataset>
+				<pie3DPlot isShowLabels="true" isCircular="true">
+					<plot backgroundAlpha="0.5" foregroundAlpha="0.8">
+						<seriesColor seriesOrder="0" color="#3399FF"/>
+						<seriesColor seriesOrder="1" color="#00CCFF"/>
+						<seriesColor seriesOrder="2" color="#0066CC"/>
+						<seriesColor seriesOrder="3" color="#6699FF"/>
+						<seriesColor seriesOrder="4" color="#004A94"/>
+						<seriesColor seriesOrder="5" color="#00356A"/>
+						<seriesColor seriesOrder="6" color="#64E21D"/>
+						<seriesColor seriesOrder="7" color="#243771"/>
+						<seriesColor seriesOrder="8" color="#856EC4"/>
+						<seriesColor seriesOrder="9" color="#923657"/>
+						<seriesColor seriesOrder="10" color="#CAC273"/>
+						<seriesColor seriesOrder="11" color="#9648AC"/>
+						<seriesColor seriesOrder="12" color="#9C9179"/>
+						<seriesColor seriesOrder="13" color="#07C7EE"/>
+						<seriesColor seriesOrder="14" color="#D3FA53"/>
+						<seriesColor seriesOrder="15" color="#947892"/>
+						<seriesColor seriesOrder="16" color="#E9AE10"/>
+						<seriesColor seriesOrder="17" color="#40D28D"/>
+						<seriesColor seriesOrder="18" color="#84569D"/>
+						<seriesColor seriesOrder="19" color="#BEE72F"/>
+						<seriesColor seriesOrder="20" color="#707244"/>
+						<seriesColor seriesOrder="21" color="#55A09E"/>
+						<seriesColor seriesOrder="22" color="#F25797"/>
+						<seriesColor seriesOrder="23" color="#4EB50F"/>
+						<seriesColor seriesOrder="24" color="#35939A"/>
+						<seriesColor seriesOrder="25" color="#27A242"/>
+					</plot>
+					<itemLabel>
+						<font size="8"/>
+					</itemLabel>
+				</pie3DPlot>
+			</pie3DChart>
+			<pie3DChart>
+				<chart isShowLegend="true" evaluationTime="Report">
+					<reportElement x="0" y="485" width="225" height="279" uuid="9c92fa9b-7bc0-43a7-a87f-7e320742560a"/>
+					<chartTitle/>
+					<chartSubtitle/>
+					<chartLegend>
+						<font size="9"/>
+					</chartLegend>
+				</chart>
+				<pieDataset maxCount="50" minPercentage="2.0">
+					<dataset>
+						<datasetRun subDataset="PieChartDataset_1" uuid="82c3929e-bb47-45ca-8fe4-7a6af542ac31"/>
+					</dataset>
+					<keyExpression><![CDATA[$F{Funcionario} + " - " + $F{Total %} + "%"]]></keyExpression>
+					<valueExpression><![CDATA[$F{Total %}]]></valueExpression>
+					<labelExpression><![CDATA[$F{Total %} + "%"]]></labelExpression>
+				</pieDataset>
+				<pie3DPlot isCircular="true">
+					<plot backgroundAlpha="0.5" foregroundAlpha="0.8">
+						<seriesColor seriesOrder="0" color="#3399FF"/>
+						<seriesColor seriesOrder="1" color="#00CCFF"/>
+						<seriesColor seriesOrder="2" color="#0066CC"/>
+						<seriesColor seriesOrder="3" color="#6699FF"/>
+						<seriesColor seriesOrder="4" color="#004A94"/>
+						<seriesColor seriesOrder="5" color="#00356A"/>
+						<seriesColor seriesOrder="6" color="#64E21D"/>
+						<seriesColor seriesOrder="7" color="#243771"/>
+						<seriesColor seriesOrder="8" color="#856EC4"/>
+						<seriesColor seriesOrder="9" color="#923657"/>
+						<seriesColor seriesOrder="10" color="#CAC273"/>
+						<seriesColor seriesOrder="11" color="#9648AC"/>
+						<seriesColor seriesOrder="12" color="#9C9179"/>
+						<seriesColor seriesOrder="13" color="#07C7EE"/>
+						<seriesColor seriesOrder="14" color="#D3FA53"/>
+						<seriesColor seriesOrder="15" color="#947892"/>
+						<seriesColor seriesOrder="16" color="#E9AE10"/>
+						<seriesColor seriesOrder="17" color="#40D28D"/>
+						<seriesColor seriesOrder="18" color="#84569D"/>
+						<seriesColor seriesOrder="19" color="#BEE72F"/>
+						<seriesColor seriesOrder="20" color="#707244"/>
+						<seriesColor seriesOrder="21" color="#55A09E"/>
+						<seriesColor seriesOrder="22" color="#F25797"/>
+						<seriesColor seriesOrder="23" color="#4EB50F"/>
+						<seriesColor seriesOrder="24" color="#35939A"/>
+						<seriesColor seriesOrder="25" color="#27A242"/>
+					</plot>
+					<itemLabel>
+						<font size="9"/>
+					</itemLabel>
+				</pie3DPlot>
+			</pie3DChart>
+			<staticText>
+				<reportElement mode="Opaque" x="314" y="405" width="239" height="181" backcolor="#FFFFCC" uuid="b161be2c-075d-4568-a610-b3ec81e07dd2">
+					<printWhenExpression><![CDATA[Boolean.FALSE]]></printWhenExpression>
+				</reportElement>
+				<box topPadding="4" leftPadding="4" bottomPadding="4" rightPadding="4">
+					<pen lineWidth="1.0" lineColor="#CC9900"/>
+					<topPen lineWidth="1.0" lineColor="#CC9900"/>
+					<leftPen lineWidth="1.0" lineColor="#CC9900"/>
+					<bottomPen lineWidth="1.0" lineColor="#CC9900"/>
+					<rightPen lineWidth="1.0" lineColor="#CC9900"/>
+				</box>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Each chart is populated on each page.
+The 3 pie charts are currently using an empty datasource and the values are
+generated using a random generator.
+
+This rectangle element is not printed (see the print when expression of this
+element)]]></text>
+			</staticText>
+			<line>
+				<reportElement x="201" y="431" width="117" height="1" uuid="425d5d39-6536-4c52-94fc-101d93e9f5e8">
+					<printWhenExpression><![CDATA[Boolean.FALSE]]></printWhenExpression>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="3.0" lineStyle="Dotted" lineColor="#996600"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement mode="Opaque" x="274" y="45" width="240" height="181" backcolor="#FFFFCC" uuid="c7e1d609-1666-4ab8-8c74-4cf1cc32df86">
+					<printWhenExpression><![CDATA[Boolean.FALSE]]></printWhenExpression>
+				</reportElement>
+				<box topPadding="4" leftPadding="4" bottomPadding="4" rightPadding="4">
+					<pen lineWidth="1.0" lineColor="#CC9900"/>
+					<topPen lineWidth="1.0" lineColor="#CC9900"/>
+					<leftPen lineWidth="1.0" lineColor="#CC9900"/>
+					<bottomPen lineWidth="1.0" lineColor="#CC9900"/>
+					<rightPen lineWidth="1.0" lineColor="#CC9900"/>
+				</box>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Flowers: there are two flowers, the first one is printed only starting from the second page, the other one only in the first page.]]></text>
+			</staticText>
+			<line>
+				<reportElement x="71" y="92" width="204" height="1" uuid="11d5f495-63a6-4539-a2bd-2120e1f933b9">
+					<printWhenExpression><![CDATA[Boolean.FALSE]]></printWhenExpression>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="3.0" lineStyle="Dotted" lineColor="#996600"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="55" y="161" width="100" height="20" forecolor="#000033" uuid="698ddb8a-5c60-4184-8e74-f157bb6dbc40"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Aberta]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="55" y="473" width="100" height="20" forecolor="#000033" uuid="573bc12d-b2ec-40b0-92bc-af9fff0884cd"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Encerrada]]></text>
+			</staticText>
+		</band>
+	</background>
+	<title>
+		<band height="94" splitType="Stretch">
+			<staticText>
+				<reportElement style="SubTitle" mode="Opaque" x="-20" y="65" width="597" height="29" backcolor="#F0F0F0" uuid="ab7c95d5-8967-4229-b5f8-717a5b0d0ad7"/>
+				<textElement textAlignment="Right">
+					<font size="22" isBold="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<frame>
+				<reportElement mode="Opaque" x="-20" y="0" width="597" height="65" forecolor="#006699" backcolor="#006699" uuid="a420af11-7dd2-4e1d-8313-385a30865a72"/>
+				<staticText>
+					<reportElement style="Title" x="61" y="0" width="516" height="65" uuid="adcf79f6-6e6a-4810-b8b6-eaab0966cb8f"/>
+					<textElement textAlignment="Right">
+						<font size="56" isBold="false"/>
+						<paragraph tabStopWidth="40"/>
+					</textElement>
+					<text><![CDATA[Ordem de Serviço]]></text>
+				</staticText>
+			</frame>
+			<staticText>
+				<reportElement x="381" y="65" width="170" height="29" forecolor="#666666" backcolor="#FFFFFF" uuid="1dde9c0f-7518-4a2a-8595-d695b1326887"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial" size="22" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Relatório]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="20" splitType="Stretch">
+			<frame>
+				<reportElement x="227" y="0" width="328" height="20" backcolor="#F0F0F0" uuid="9c8b9bba-4851-4f8d-a225-ca287742eace"/>
+				<staticText>
+					<reportElement style="Column header" positionType="Float" x="0" y="0" width="132" height="20" forecolor="#000000" uuid="dc832002-d0ec-4411-af75-6821aa9b4f30"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Arial" isBold="true" pdfFontName="Helvetica"/>
+					</textElement>
+					<text><![CDATA[Ordem de Serviço]]></text>
+				</staticText>
+			</frame>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="42" splitType="Stretch">
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="225" y="41" width="330" height="1" uuid="8dc58ad3-3d19-42a9-a37c-394a0f1ad9e0"/>
+			</line>
+			<frame>
+				<reportElement x="225" y="3" width="328" height="38" uuid="581f7170-8a7b-4ef8-b509-fd9d35a0e016"/>
+				<textField>
+					<reportElement x="96" y="2" width="98" height="36" uuid="aebbc2f9-681a-4cba-a551-3dc65ba7c6df"/>
+					<textElement textAlignment="Center"/>
+					<textFieldExpression><![CDATA[$F{Funcionário}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="48" y="2" width="48" height="36" uuid="1cf9ceda-1eff-4619-9eb6-fed698b7e1a5"/>
+					<textElement textAlignment="Center"/>
+					<textFieldExpression><![CDATA[$F{R.E1}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="252" y="2" width="76" height="36" uuid="3a2474e9-75ee-4668-b25c-38927bb70759"/>
+					<textElement textAlignment="Center"/>
+					<textFieldExpression><![CDATA[$F{Tempo}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="194" y="2" width="58" height="36" uuid="c63d9828-7d61-4043-a338-179b5b7a1b8d"/>
+					<textElement textAlignment="Center"/>
+					<textFieldExpression><![CDATA[$F{Prioridade}]]></textFieldExpression>
+				</textField>
+			</frame>
+			<textField>
+				<reportElement x="226" y="5" width="48" height="36" uuid="6fe66f14-e08e-4e90-9369-45a61c682f07"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{N° O.S}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="55" splitType="Stretch">
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="227" y="0" width="328" height="1" uuid="924f5388-b38c-4dac-9535-a59a194db69c"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="19" splitType="Stretch">
+			<frame>
+				<reportElement mode="Opaque" x="0" y="0" width="557" height="13" forecolor="#D0B48E" backcolor="#006699" uuid="44ee6d37-8412-4e68-8463-3ea20ab459cf"/>
+				<textField evaluationTime="Report">
+					<reportElement style="Column header" x="511" y="0" width="40" height="13" forecolor="#FFFFFF" uuid="5cb685e3-8657-40f8-881e-12791d3380a5"/>
+					<textElement verticalAlignment="Middle">
+						<font size="10" isBold="false"/>
+					</textElement>
+					<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="Column header" x="431" y="0" width="80" height="13" forecolor="#FFFFFF" uuid="65eae984-cd6d-4902-9406-2facf9e4e303"/>
+					<textElement textAlignment="Right" verticalAlignment="Middle">
+						<font size="10" isBold="false"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Página "+$V{PAGE_NUMBER}+" de"]]></textFieldExpression>
+				</textField>
+				<textField pattern="EEEEE dd MMMMM yyyy">
+					<reportElement style="Column header" x="2" y="0" width="197" height="13" forecolor="#FFFFFF" uuid="ed030e42-da1e-4258-9a01-bc81d421d7ce"/>
+					<textElement verticalAlignment="Middle">
+						<font size="10" isBold="false"/>
+					</textElement>
+					<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

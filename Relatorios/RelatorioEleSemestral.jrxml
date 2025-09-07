@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="RelatorioEleSemestral" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="5064f92e-a9c1-43d3-a83a-6bffd844ea1d">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<style name="style1">
+		<conditionalStyle>
+			<conditionExpression><![CDATA[$F{Situação}.equals( "Aberta" )]]></conditionExpression>
+			<style forecolor="#0001F0"/>
+		</conditionalStyle>
+		<conditionalStyle>
+			<conditionExpression><![CDATA[$F{Situação}.equals( "Encerrada" )]]></conditionExpression>
+			<style forecolor="#00F002"/>
+		</conditionalStyle>
+		<conditionalStyle>
+			<conditionExpression><![CDATA[$F{Situação}.equals( "Irregular" )]]></conditionExpression>
+			<style forecolor="#F00A00"/>
+		</conditionalStyle>
+		<conditionalStyle>
+			<conditionExpression><![CDATA[$F{Situação}.equals( null )]]></conditionExpression>
+			<style forecolor="#F0AE0C"/>
+		</conditionalStyle>
+	</style>
+	<queryString>
+		<![CDATA[select Men.id_form_ele_semestral as 'N°', Usu.iduser as 'R.E', Usu.nome_usuario as 'Funcionario', Men.tipo_usuario as 'Especialidade', Men.tipo_prev as 'Preventiva', Men.situacao_prev as 'Situação', Men.tempo_ini_prev as 'inicío', Men.tempo_total_prev as 'Tempo', Men.tipo_prev as 'Tipo',
+(select count(*)  from form_eletrica_semestral where situacao_prev is null) as 'Iniciar',
+(select count(*)  from form_eletrica_semestral where situacao_prev = "Aberta") as 'Aberta',
+(select count(*)  from form_eletrica_semestral where situacao_prev = "Encerrada") as 'Encerrada',
+(select count(*)  from form_eletrica_semestral where situacao_prev = "irregular") as 'irregular'
+from form_eletrica_semestral Men
+inner join usuarios Usu on  Men.iduser = Usu.iduser
+group by(Usu.nome_usuario), (Men.id_form_ele_semestral)
+order by Funcionario asc;]]>
+	</queryString>
+	<field name="N°" class="java.lang.Integer"/>
+	<field name="R.E" class="java.lang.Integer"/>
+	<field name="Funcionario" class="java.lang.String"/>
+	<field name="Especialidade" class="java.lang.String"/>
+	<field name="Preventiva" class="java.lang.String"/>
+	<field name="Situação" class="java.lang.String"/>
+	<field name="inicío" class="java.lang.String"/>
+	<field name="Tempo" class="java.lang.String"/>
+	<field name="Tipo" class="java.lang.String"/>
+	<field name="Iniciar" class="java.lang.Long"/>
+	<field name="Aberta" class="java.lang.Long"/>
+	<field name="Encerrada" class="java.lang.Long"/>
+	<field name="irregular" class="java.lang.Long"/>
+	<group name="Group1">
+		<groupHeader>
+			<band height="21">
+				<staticText>
+					<reportElement mode="Opaque" x="-20" y="0" width="595" height="20" forecolor="#006699" backcolor="#E6E6E6" uuid="f64d2933-6aa9-4e5c-a8d2-79b72427e007"/>
+					<textElement textAlignment="Center">
+						<font size="14" isBold="true"/>
+					</textElement>
+					<text><![CDATA[]]></text>
+				</staticText>
+				<line>
+					<reportElement x="-20" y="20" width="595" height="1" forecolor="#666666" uuid="a7a099c7-abab-4099-baf3-3865128b8a5b"/>
+				</line>
+				<staticText>
+					<reportElement x="0" y="0" width="50" height="20" uuid="e18322e8-cfa7-495c-a67c-c10442b52712"/>
+					<textElement textAlignment="Center" verticalAlignment="Bottom">
+						<font size="11" isBold="true"/>
+					</textElement>
+					<text><![CDATA[N°]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="50" y="0" width="50" height="21" uuid="2acb66dc-ecff-4a0c-a183-e8008552175d"/>
+					<textElement textAlignment="Center" verticalAlignment="Bottom">
+						<font size="11" isBold="true"/>
+					</textElement>
+					<text><![CDATA[R.E]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="100" y="0" width="143" height="20" uuid="76c1eeaf-6e60-4ae8-9eea-7839a387eb02"/>
+					<textElement textAlignment="Center" verticalAlignment="Bottom">
+						<font size="11" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Funcionario]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="333" y="0" width="70" height="20" uuid="e8dd5ce8-3ba7-48f1-8052-c3610807724b"/>
+					<textElement textAlignment="Center" verticalAlignment="Bottom">
+						<font size="11" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Situação]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="467" y="1" width="88" height="20" uuid="b23fca70-fd8e-4ffd-a5f3-18aa1285e8a8"/>
+					<textElement textAlignment="Center" verticalAlignment="Bottom">
+						<font size="11" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Tempo]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="243" y="0" width="90" height="20" uuid="0f0067cc-74ba-4a5b-956a-0d118158381d"/>
+					<textElement textAlignment="Center" verticalAlignment="Bottom">
+						<font size="11" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Especialidade]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="403" y="0" width="64" height="20" uuid="ebb8b4d5-d491-4553-8882-41d1d1e56129"/>
+					<textElement textAlignment="Center" verticalAlignment="Bottom">
+						<font size="11" isBold="true"/>
+					</textElement>
+					<text><![CDATA[inicío]]></text>
+				</staticText>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band/>
+		</groupFooter>
+	</group>
+	<background>
+		<band height="802"/>
+	</background>
+	<title>
+		<band height="72">
+			<frame>
+				<reportElement mode="Opaque" x="-20" y="-20" width="595" height="92" backcolor="#006699" uuid="1d78908a-5769-478f-ad0c-77495f66b087"/>
+				<staticText>
+					<reportElement x="20" y="20" width="234" height="43" forecolor="#FFFFFF" uuid="3bea6c6b-23c5-4c3d-afd2-9027ac485df6"/>
+					<textElement>
+						<font size="34" isBold="true"/>
+					</textElement>
+					<text><![CDATA[RELATÓRIO]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="356" y="43" width="219" height="20" forecolor="#FFFFFF" uuid="e4c0d2fa-c202-4770-9ca9-ccfc2dfac54b"/>
+					<textElement textAlignment="Right">
+						<font size="14" isBold="false"/>
+					</textElement>
+					<text><![CDATA[Dados Sobre Preventiva ]]></text>
+				</staticText>
+			</frame>
+		</band>
+	</title>
+	<pageHeader>
+		<band/>
+	</pageHeader>
+	<columnHeader>
+		<band height="34">
+			<textField>
+				<reportElement mode="Opaque" x="42" y="0" width="533" height="32" forecolor="#006699" backcolor="#E6E6E6" uuid="e4fd1185-2911-414d-b393-77608ca5730c"/>
+				<textElement verticalAlignment="Middle">
+					<font size="20" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Tipo}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="-20" y="33" width="595" height="1" forecolor="#666666" uuid="5768a47a-0f9e-4b92-8835-19b7f2b5b27f"/>
+			</line>
+			<staticText>
+				<reportElement mode="Opaque" x="-20" y="0" width="62" height="32" forecolor="#666666" backcolor="#E6E6E6" uuid="8b0fdf5f-f556-4290-a921-4344ad72d448"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Periodo ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="72" height="16" uuid="47495544-eab2-40b1-8927-3ac4e96f2c07"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Não Iniciada : ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="333" y="16" width="61" height="16" uuid="1e798649-0c90-4bac-83fd-b1bb44e67976"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Aberta : ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="444" y="0" width="61" height="16" uuid="ece004cc-802f-4ba9-9aba-b4b7d182e0a8"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Encerrada : ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="444" y="16" width="61" height="16" uuid="98a90534-9e34-40f4-8dee-6b0e7f280704"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Irregular : ]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="394" y="0" width="50" height="16" forecolor="#F0AE0C" uuid="e4beed29-c972-40e8-90e7-2759dd982133"/>
+				<textElement verticalAlignment="Middle">
+					<font size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Iniciar}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="394" y="16" width="50" height="16" forecolor="#0001F0" uuid="46c5af06-edb1-4957-b36b-b54cf96f88da"/>
+				<textElement verticalAlignment="Middle">
+					<font size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Aberta}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="505" y="0" width="50" height="16" forecolor="#00F002" uuid="1e1fe96f-aaab-47f9-a844-1ce9e7e497a1"/>
+				<textElement verticalAlignment="Middle">
+					<font size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Encerrada}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="505" y="15" width="50" height="17" forecolor="#F00A00" uuid="303ed3ff-3436-47ce-9516-246565397373"/>
+				<textElement verticalAlignment="Middle">
+					<font size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{irregular}]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="43">
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="0" y="42" width="555" height="1" uuid="a0529f08-c9a1-4538-94ab-68d228a65fcc"/>
+			</line>
+			<textField>
+				<reportElement x="0" y="0" width="50" height="42" uuid="2e5ebc22-3f19-40f9-b7ff-577bf8c74a9b"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{N°}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="50" y="0" width="50" height="42" uuid="9c58482e-6f46-45e9-bc74-a662b5c95e37"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{R.E}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="100" y="1" width="143" height="42" uuid="5c186b0f-b202-44ca-9294-0343c9e95a05"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Funcionario}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="403" y="1" width="64" height="42" uuid="0b5796ff-7efc-4cbd-be8c-20f4c555082b"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{inicío} == null ? "--/--/--" :
+$F{inicío} != null ? $F{inicío} : ""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="467" y="1" width="88" height="42" uuid="d7f02f5e-7395-490c-9ecc-918673b04595"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Tempo} == "" ? "--/--/--" :
+$F{Tempo} == null ? "--/--/--" : $F{Tempo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement style="style1" x="333" y="1" width="70" height="42" uuid="201a48fb-9284-4672-9850-3cdbc571e647"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Situação}.equals(null) ? "Não Iniciada" :
+$F{Situação}.equals("Aberta") ? "Aberta" :
+$F{Situação}.equals("Encerrada") ? "Encerrada" :
+$F{Situação}.equals("Irregular") ? "Irregular" : ""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="243" y="1" width="90" height="42" uuid="d9f5bc57-432f-4ddc-9971-a24f19613971"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Especialidade}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band/>
+	</columnFooter>
+	<pageFooter>
+		<band height="17">
+			<textField>
+				<reportElement mode="Opaque" x="0" y="4" width="515" height="13" backcolor="#E6E6E6" uuid="36b64545-087e-4f2b-b14a-156080041eb9"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA["Página "+$V{PAGE_NUMBER}+" de"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement mode="Opaque" x="515" y="4" width="40" height="13" backcolor="#E6E6E6" uuid="d00535b8-f2ca-4caa-9771-6aabbbc1b924"/>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField pattern="EEEEE dd MMMMM yyyy">
+				<reportElement x="0" y="4" width="100" height="13" uuid="d2ee009d-9ed6-4346-bc3e-9f095bd09bad"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band/>
+	</summary>
+</jasperReport>

@@ -1,3 +1,6 @@
+![GitHub repo size](https://img.shields.io/github/repo-size/fabio2307/projeto_java_Gerenciamento_Menutecao) ![GitHub License](https://img.shields.io/github/license/fabio2307/projeto_java_Gerenciamento_Menutecao)
+
+
 # Projeto Java e MySQL.
 
 ## Controle de ordem de serviço, cadastro de usuários e controle de estoque.
